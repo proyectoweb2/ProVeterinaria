@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tipos de Mascota</title>
+<meta charset="ISO-8859-1">
+ <link type="text/css" href="estilos.css" rel="stylesheet" />
+</head>
+ 
+<body>
+ 
+    <div id="registrar">
+<a href="./php/registro.php">Registrate</a>
+</div> <!-- fin opcion-->
+ 
+    <div id="envoltura">
+        <div id="contenedor">
+ 
+            <div id="cabecera" >
+                <img src="./css/images/logo.gif">
+            </div>
+ 
+            <div id="cuerpo">
+                <form id="form-login" action="" method="post" autocomplete="off">
+                    <!--A saber, el atributo for funciona como el id.-->
+                    <!--ejemplo <label for="usuario">Usuario:</label>-->
+                    <!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
+                    <p><label >Nombre Mascota:</label></p>
+                        <input name="usuario" type="text" id="usuario" placeholder="Nombre Mascota" autofocus="" required=""></p>
+					<p><label >Especie:</label></p>
+                     <select id="nombre" >
+							<option value="">Perro</option>
+							<option value="" >Gato</option>
+							</select>
+					 <p><label ></label></p>
+                     <br>
+					
+					<center>
+                    <p id="bot"><input type="submit" id="submit" name="submit" value="Aceptar" class="boton"></p>
+					</center>
+                </form>
+            </div><!--fin cuerpo-->
+ 
+            
+        </div><!-- fin contenedor -->
+    </div><!--fin envoltura-->
+	
+	<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="¡CSS Válido!" />
+    </a>
+</p>
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+  </p>
+</body>
+ 
+</html>

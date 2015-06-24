@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>sugerenciaSave</servlet-name>
+		<servlet-class>epis.unsa.sugerencia.sugerenciaSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sugerenciaSave</servlet-name>
+		<url-pattern>/sugerenciasave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+      <servlet-name>sugerenciaLista</servlet-name>
+      <servlet-class>epis.unsa.sugerencia.sugerenciaLista</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>sugerenciaLista</servlet-name>
+      <url-pattern>/sugerencialista</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>sugerenciaBorrar</servlet-name>
+      <servlet-class>epis.unsa.sugerencia.sugerenciaBorrar</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>sugerenciaBorrar</servlet-name>
+      <url-pattern>/sugerenciaborrar</url-pattern>
+   </servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>medicinaSave</servlet-name>
+		<servlet-class>epis.unsa.medicina.medicinaSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>medicinaSave</servlet-name>
+		<url-pattern>/medicinasave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+      <servlet-name>medicinaLista</servlet-name>
+      <servlet-class>epis.unsa.medicina.medicinaLista</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>medicinaLista</servlet-name>
+      <url-pattern>/medicinalista</url-pattern>
+   </servlet-mapping>
+   
+   	<servlet>
+      <servlet-name>medicinaBorrar</servlet-name>
+      <servlet-class>epis.unsa.medicina.medicinaBorrar</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>medicinaBorrar</servlet-name>
+      <url-pattern>/medicinaborrar</url-pattern>
+   </servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>publicacionSave</servlet-name>
+		<servlet-class>epis.unsa.publicacion.publicacionSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>publicacionSave</servlet-name>
+		<url-pattern>/publicacionsave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+      <servlet-name>publicacionLista</servlet-name>
+      <servlet-class>epis.unsa.publicacion.publicacionLista</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>publicacionLista</servlet-name>
+      <url-pattern>/publicacionlista</url-pattern>
+   </servlet-mapping>
+   <servlet>
+      <servlet-name>publicacionBorrar</servlet-name>
+      <servlet-class>epis.unsa.publicacion.publicacionBorrar</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>publicacionBorrar</servlet-name>
+      <url-pattern>/publicacionborrar</url-pattern>
+   </servlet-mapping>
+	
+	
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>ProductoSave</servlet-name>
+		<servlet-class>epis.unsa.producto.ProductoSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductoSave</servlet-name>
+		<url-pattern>/productosave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+      <servlet-name>ProductoLista</servlet-name>
+      <servlet-class>epis.unsa.producto.ProductoLista</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>ProductoLista</servlet-name>
+      <url-pattern>/productolista</url-pattern>
+   </servlet-mapping>
+   
+   	<servlet>
+      <servlet-name>ProductoBorrar</servlet-name>
+      <servlet-class>epis.unsa.producto.ProductoBorrar</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>ProductoBorrar</servlet-name>
+      <url-pattern>/productoborrar</url-pattern>
+   </servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>BorrarMascota</servlet-name>
+		<servlet-class>epis.unsa.registroMascota.BorrarMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarMascota</servlet-name>
+		<url-pattern>/borrarMascota</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SaveMascota</servlet-name>
+		<servlet-class>epis.unsa.registroMascota.SaveMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveMascota</servlet-name>
+		<url-pattern>/saveMascota</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListaMascota</servlet-name>
+		<servlet-class>epis.unsa.registroMascota.ListaMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaMascota</servlet-name>
+		<url-pattern>/listaMascota</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ListaConsulta</servlet-name>
+		<servlet-class>epis.unsa.Consultas.ListaConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaConsulta</servlet-name>
+		<url-pattern>/listaConsulta</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SaveConsulta</servlet-name>
+		<servlet-class>epis.unsa.Consultas.SaveConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveConsulta</servlet-name>
+		<url-pattern>/saveConsulta</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+	<servlet>
+		<servlet-name>CrearPersona</servlet-name>
+		<servlet-class>epis.unsa.registroCliente.CrearPersona</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CrearPersona</servlet-name>
+		<url-pattern>/crearPersona</url-pattern>
+	</servlet-mapping>
+	
+
+		
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>inicio.html</welcome-file>
+	</welcome-file-list>
+</web-app>

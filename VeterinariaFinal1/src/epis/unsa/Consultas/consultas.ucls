@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="epis.unsa.Consultas.ListaConsulta" project="VeterinariaFinal1" 
+    file="/VeterinariaFinal1/src/epis/unsa/Consultas/ListaConsulta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="15" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="epis.unsa.Consultas.Veterinaria3Servlet" project="VeterinariaFinal1" 
+    file="/VeterinariaFinal1/src/epis/unsa/Consultas/Veterinaria3Servlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="339" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="epis.unsa.Consultas.Consulta" project="VeterinariaFinal1" 
+    file="/VeterinariaFinal1/src/epis/unsa/Consultas/Consulta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="197" x="663" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="epis.unsa.Consultas.SaveConsulta" project="VeterinariaFinal1" 
+    file="/VeterinariaFinal1/src/epis/unsa/Consultas/SaveConsulta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="900" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="epis.unsa.Consultas.PMF" project="VeterinariaFinal1" 
+    file="/VeterinariaFinal1/src/epis/unsa/Consultas/PMF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="209" x="1224" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

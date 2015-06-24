@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+body{
+background-image: url("http://www.fonditos.com/includes/imagen.php?ruta=/wallpapers/1024x768/01568.jpg&nombre=mascota_del_futuro-1024x768.jpg");
+
+}
+
+h1{
+ text-align: center;
+ color: #DBFF94;
+ font-family: serif;
+ font-size: 300%;
+}
+
+h2{
+margin-right: 100px;
+    margin-left: 50px;
+color: #FFAD85;
+font-family: verdana;
+font-size: 100%;
+}
+
+p{
+margin-right: 100px;
+margin-left: 100px;
+font-family: sans-serif;
+text-align: justify;
+}
+
+legend{
+color: #CC8239;
+ font-size: 40px;
+font-style: oblique;
+border:2px solid #CC8239;
+}
+
+fieldset{
+color: white;
+border:4px solid #B4B4AE;
+font-style: italic;
+ font-size: 30px;
+}
+
+ul{
+list-style-type: square;
+font-family: "Times New Roman";
+}
+
+li{
+
+}
+
+p.main {
+    text-align: justify;
+}
+
+div.img{
+    margin: 5px;
+    padding: 5px;
+
+    height: auto;
+    width: auto;
+   
+    text-align: center;
+}
+
+a{
+margin-left: 150px;
+color: white;
+font-style: italic;
+font-size: 30px;
+}
